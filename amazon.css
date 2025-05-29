@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+/** HEADER SECTION **/
+
+/** First nav **/
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/** logo box **/
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("./amzPics/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+
+/** location box **/
+
+.nav-location{
+    height: 50px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+#deliverto{
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 1.5rem;
+}
+#symb-country{
+    display: flex;
+    margin-left: 0.5rem;
+}
+#nav-country{
+    margin-left: 0.2rem;
+    font-weight: 700;
+}
+
+/** search box **/
+
+.nav-search{
+    height: 60px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srch-ops{
+    height: 35px;
+    width: 45px;
+    color: #0f1111;
+    background-color: #e6e6e6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.srch-bar{
+    height: 30px;
+    width:345px;
+    font-size: 1rem;
+}
+#srch-symb{
+    height: 35px;
+    width: 40px;
+    background-color: rgb(248, 166, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.srch-border{
+    height: 34px;
+    display: flex;
+}
+.srch-border:active{
+    border: 4px solid rgb(216, 133, 8);
+    border-radius: 4px;
+}
+
+/** Accounts box **/
+
+.nav-acc{
+    height: 50px;
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.acc-make{
+    display: flex;
+    margin-left: 15px;
+}
+.acc-arrow{
+    background-color: #0f1111;
+    color: white;
+    border-color: #0f1111;
+}
+
+.fst-ln{
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.sec-ln{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/** Cart **/
+.nav-cart{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart_symb{
+    font-size: 2rem;
+}
+
+
+/** Second nav **/
+
+.sec-nav{
+    height: 40px;
+    color: white;
+    background-color: rgb(42, 43, 56);
+    display: flex;
+    align-items: center;
+}
+.all-sec{
+    font-size: 14px;
+    height: 36px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-ops{
+    display: flex;
+    align-items: center;
+}
+.prop-ori{
+    font-size: 14px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** MAIN CONTENTS **/
+
+#hero_sec{
+    height: 25rem;  
+    background-image: url("amzPics/hero_sec_img.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.mssg{
+    height: 40px;
+    width: 96%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f6;
+    position: relative;
+    bottom: 15px;
+}
+
+/** Items **/
+
+.amz-itms{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 400px;
+    width: 17.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+/** Footer **/
+
+footer{
+    background-color: white;
+}
+
+#signin-button{
+    background-color: orange;
+    border: 1px solid rgb(255, 136, 0);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    height: 30px;
+    width: 280px;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #0991a9;
+    text-decoration: none; /* if a tag properties applied inline then a:hover properties also won't work */
+}
+a:hover{
+    color: brown;
+}
+
+
+.bck-to-top{
+    color: white;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: rgb(64, 68, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bck-to-top:hover{
+    color: white;
+    background-color: rgb(95, 98, 112);
+}
+
+.about-amz{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(31, 31, 41);
+    display: flex;
+    justify-content: space-around;
+}
+.foot-headings{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0px 16px;
+}
+.foot-itms{
+    display: flex;
+    flex-direction: column;
+}
+.foot-links{
+    color: #cccccc;
+    font-family: monospace;
+    font-size: 14px;
+    margin-bottom:0.5rem;
+}
+.foot-links:hover{
+    color: #cccccc;
+    text-decoration: underline;
+}
+#foot-amzbutt{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(31, 31, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eng-ops{
+    color: white;
+    margin-left: 80px;
+    display: flex;
+}
+.eng-butt{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.eng-butt-txt{
+    margin-left: 10px;
+}
+
+.last-foot{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(19, 19, 32);
+}
+.last-foot-ops{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.last-foot-underline{
+    font-size: 12px;
+    width: 8%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.last-foot-underline:hover{
+    text-decoration: 1px white underline;
+}
+.last-foot-underline .last-foot-lnk-up:hover{       /*** imp ***/
+    color: white;
+}
+.last-foot-underline .last-foot-lnk-down:hover{    /*** imp ***/
+    color: #cccccc;
+}
+
+.last-foot-lnk-up{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+.last-foot-lnk-down{
+    color: #cccccc;
+}
+
+.last-foot-ops-end{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
